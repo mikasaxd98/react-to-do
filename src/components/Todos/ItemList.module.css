@@ -1,0 +1,74 @@
+.item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0 5px;
+    height: 36px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    gap: 4px;
+}
+
+.item.selected {
+    background-color: transparent;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.todoIcon {
+    color: teal;
+}
+
+.selected .todoIcon{
+    color: rgb(180, 180, 180);;
+}
+
+.actionsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-left: auto;
+}
+
+.deleteIcon, .successIcon {
+    transition: .3s;
+    cursor: pointer;
+}
+
+.deleteIcon:hover {
+    transition: .3s;
+    transform: scale(1.3);
+    color: rgb(200, 87, 87);
+
+}
+
+.selected .deleteIcon{
+    color: rgb(180, 180, 180);
+}
+
+.selected .deleteIcon:hover {
+    color: rgb(180, 180, 180);
+}
+
+.selected .successIcon {
+    color: rgb(180, 180, 180);
+}
+
+.successIcon:hover {
+    transition: .3s;
+    transform: scale(1.3);
+    color:rgb(87, 193, 87);
+
+}
+
+.selected .successIcon:hover {
+    color: rgb(180, 180, 180);
+}
+
+.selected .text {
+    color: rgb(180, 180, 180);
+}

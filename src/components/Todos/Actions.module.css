@@ -1,0 +1,23 @@
+.actionsContainer {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.actionsContainer button {
+width: 40px;
+height: 40px;
+cursor: pointer;
+border-radius: 4px ;
+border: none;
+}
+
+.actionsContainer button:hover {
+    transition: .3s;
+    background-color: rgb(205, 194, 45);
+}
+
+.icon {
+    font-size: 1rem;
+}
